@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>prudvi teja</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/vendor.css">
+
+
+    <script src="js/modernizr.js"></script>
+
+    <link rel="shortcut icon" href="img/bg.png" type="image/x-icon">
+    <link rel="icon" href="img/bg.png" type="image/x-icon">
+
+</head>
+<body id="top">
+ 
+      <header class="s-header">
+
+          <div class="header-logo">
+              <a class="site-logo" href="Index.html">
+                  <img src="img/bg.png" alt="Homepage">
+              </a>
+          </div> 
+
+          <nav class="header-nav">
+
+              <a href="#0" class="header-nav__close" title="close">           <span>Close</span></a>
+              <div class="header-nav__content">
+
+                  <ul class="header-nav__list">
+                      <li><a class="smoothscroll"  href="#home" title="home">Home</a></li>
+                      <li><a class="smoothscroll" href="#styles" title="profession">profession</a></li>
+                      <li><a class="smoothscroll" href="#edu" title="about">Education</a></li>
+                      <li><a class="smoothscroll" href="#bar" title="about">Skills</a></li>
+                      <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
+                  </ul>
+                  <ul class="social" id="mso">
+                    <li class="msm"><a   href="https://www.linkedin.com/in/bunny-g%C3%B8ud-a2632722a/"><img class="media" src="img/linkedin.png" alt="LinkedIn"  ></a>
+                    <li class="msm"><a   href="https://www.facebook.com/bunny.poodari.1" ><img class="media" src="img/fb.png" alt="Facebook" ></li>
+                    <li class="msm"><a   href="https://www.instagram.com/angry_.king_.bunny/"><img class="media" src="img/insta.png" alt="Instagram"></li>
+                    <li class="msm"><a   href="https://twitter.com/BunnyGoud1158"><img class="media" src="img/twitter.png" alt="Twitter"></li>
+                </ul>
+
+            </div>
+          </nav> 
+          <a class="header-menu-toggle" href="#0">
+              <span class="header-menu-icon"></span>
+          </a>
+
+      </header> 
+    <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="img/IMG_0302.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+        <div class="grid-overlay">
+            <div></div>
+        </div>
+
+        <div class="home-content">
+
+            <div class="row home-content__main">
+
+                <h2 id="ppt">
+                PRUDVI TEJA
+                </h2>
+
+                <h3>
+               FRONT-END DEVLOPER
+                </h3>
+                <div class="home-content__button">
+                  <a href="#styles" class="smoothscroll btn btn--primary btn--large">
+                      More
+                  </a>
+                  <a href="#contact" class="smoothscroll btn btn--large">
+                      Let's Talk
+                  </a>
+              </div>
+
+          </div> 
+
+          <div class="home-content__scroll">
+              <a href="#styles" class="scroll-link smoothscroll">
+              </a>
+          </div>
+
+      </div> 
+
+</section> 
+ <div class="total">
+ <section id="styles" class="s-styles">
+
+  <div class="row narrow section-intro add-bottom text-center">
+
+      <div class="col-twelve tab-full">
+
+          <h1 class="display-1">PROFESSIONAL</h1>
+
+          <p class="lead">I'm a web developer with a passion for UI design and functional
+              user experiences with a creative mindset.
+              front developer who focuse on writing clean and elegant and efficient code.</p>
+              <Div>
+                <Button Class="raise" ><a href="resmue.docx">DOWNLOAD CV</a></Button>
+              </Div>
+      </div><br>
+
+     
+
+  </div>
+  <div class="counter">
+  
+    <div class="box">
+        <span>0</span>
+        <h3>years of experience</h3>
+    </div>
+
+    <div class="box">
+        <span>2</span>
+        <h3>porject completed</h3>
+    </div>
+  </div> 
+  <div class="row add-bottom" id="edu">
+
+    <div class="col-twelve">
+
+        <h3 id="e">Education</h3>
+        <br>
+        <p></p>
+
+        <div class="table-responsive">
+
+            <table>
+                    <thead>
+                    <tr>
+                        <th>Qulification</th>
+                        <th>School/college</th>
+                        <th>Board/university</th>
+                        <th>Year</th>
+                        <th>Stream</th>
+                        <th>Score</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>B-TECH (pursuing)</td>
+                        <td>Sree Chaitanya Institute of Technological Sciences, Karimnagar</td>
+                        <td>Jawaharlal Nehru Technological University</td>
+                        <td>2020-2024</td>
+                        <td>Computer Science Engineering</td>
+                        <td>-</td>
+                      </tr>
+                    <tr>
+                        <td>Intermediate</td>
+                        <td>SR JUNIOR COLLEGE , HANAMKONDA.</td>
+                        <td>BOARD OF INTERMEDIATE</td>
+                        <td>2018-2020</td>
+                        <td>Mathematics,
+                          physics&
+                          chemistry</td>
+                        <td>64%</td>
+                    </tr>
+                    <tr>
+                      <td>SSC</td>
+                      <td>EKASHILA HIGH SCHOOL,
+                        HANAMKONDA</td>
+                      <td>Board of secondary</td>
+                      <td>2018</td>
+                      <td>-</td>
+                      <td>67%</td>
+                    </tr>
+                    </tbody>
+            </table>
+
+        </div>
+
+    </div><br>
+    
+<section class="education" id="education">
+
+  <h1 class="heading"> MY <span>CERTIFICATION</span> </h1>
+
+  <div class="box-container">
+
+      <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>31-01-2022</span>
+          <h3>Cyber security</h3>
+          <p>  SmartKnower</p>
+      </div>
+
+      <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>07-11-2022</span>
+          <h3>Java script</h3>
+          <p>Sololearn</p>
+      </div>
+
+      <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>13.11.2022</span>
+          <h3>Kotline</h3>
+          <p>Sololearn</p>
+      </div>
+
+      <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>04-02-2023</span>
+        <h3>HTML5</h3>
+        <p>Elewayte</p>
+    </div>
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>04-02-2023</span>
+        <h3>CSS3</h3>
+        <p>Elewayte</p>
+</div></section>
+
+<div>
+    <ul id="pro">
+        <h3 id="myp">My Projects</h3>
+        <p class="lead">click the icons to see my projects</p>
+        <li class="project"><a href="https://prudviteja.netlify.app " target="_blank"><img class="pj" src="img/bg.png" alt="" srcset=""> </a></li>
+        <li class="project"><a href="https://anytimefitnessgym.netlify.app" target="_blank"><img class="pj" src="img/Af.png" alt="" srcset=""></a></li>
+    </ul>
+</div>
+
+</div> 
+
+<div class="col-six tab-full" id="bar">
+  <h3 id="sb">Skill Bars</h3>
+
+    <ul class="skill-bars" id="skill">
+        <li>
+        <div class="progress percent90"><span>95%</span></div>
+        <strong>HTML5</strong>
+        </li>
+        <li>
+        <div class="progress percent75"><span>85%</span></div>
+        <strong>CSS3</strong>
+        </li>
+        <li>
+        <div class="progress percent50"><span>50%</span></div>
+        <strong>PHP</strong>
+        </li>
+        <li>
+        <div class="progress percent75"><span>75%</span></div>
+        <strong>Wordpress</strong>
+        </li>
+        <li>
+        <div class="progress percent25"><span>25%</span></div>
+        <strong>Java script</strong>
+        </li>
+    </ul>
+
+</div>
+  
+<div class="row section-header narrow" data-aos="fade-up"  >
+  <div class="col-full"id="contact">
+      <h3 class="subhead" id="kit">Keep In Touch</h3>
+      <h1 class="display-1" id="free">Feel free to contact me  for any <br> project ideas </h1>
+  </div>
+</div> 
+<section id="middile">
+<div class="row contact-main" data-aos="fade-up" >
+  <div class="col-full">
+      <p class="contact-email" id="mail">
+
+        Through : <h4>Email:</h4>
+        <a href="mailto:prudhviteja2002@gmail.com">prudhviteja2002@gmail.com</a><br>or
+      </p>
+      <p class="contact-numbers" id="mail"><h4>call:</h4>
+      +91 9182520644  &nbsp; +91 8501822102
+      </p>
+      <h2 id="ht">Also Follow Me on </h2><br>
+      <ul class="social" id="so">
+
+        <li class="sm"><a   href="https://www.linkedin.com/in/bunny-g%C3%B8ud-a2632722a/" target="_blank"><img class="media" src="img/linkedin.png" alt="LinkedIn"  ></a>
+        <li class="sm"><a   href="https://www.facebook.com/bunny.poodari.1"  target="_blank"><img class="media" src="img/fb.png" alt="Facebook" ></li>
+        <li class="sm"><a   href="https://www.instagram.com/angry_.king_.bunny/" target="_blank"><img class="media" src="img/insta.png" alt="Instagram"></li>
+        <li class="sm"><a   href="https://twitter.com/BunnyGoud1158" target="_blank"><img class="media" src="img/twitter.png" alt="Twitter"></li>
+    </ul>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15166.883186496227!2d79.2079926!3d18.130680250000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bccc803574e9f17%3A0x8892664824a00def!2sHusnabad%2C%20Telangana%20505467!5e0!3m2!1sen!2sin!4v1676556189963!5m2!1sen!2sin" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+  </div>
+</div>
+</section>
+</div>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html> 
+
+
+

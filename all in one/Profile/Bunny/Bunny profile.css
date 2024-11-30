@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Barlow+Condensed:ital,wght@0,600;1,400&family=Dancing+Script:wght@700&family=Explora&family=La+Belle+Aurore&display=swap');
+
+:Root{
+--Primary: Rgb(0, 255, 255);
+--BgDark: Rgb(12, 12,12);/*heading background color*/
+--White: Rgb(255, 0, 25);/* heading text color*/
+--Secondary: Rgb(255, 102, 0);/*second profile text color*/
+--BgLight: Rgb(190, 181, 181);
+--yellow:#f9ca24;
+}
+Header{
+    Background-Color: Var(--BgDark);
+    Clip-Path: Polygon(0 0, 100% 0, 100% 100%, 73% 94%, 0 100%);
+    }
+    Header Nav .Left A{
+    Color: Var(--White);
+    Text-Decoration: None;
+    Margin-Right: 2rem;
+    Text-Transform: Uppercase;
+    Transition: All .2s Ease;
+    }
+    Header Nav .Left A:hover{
+    Color: Var(--Primary);
+    }
+    Header Nav .Left A:active{
+        color: #ffff00;
+    }
+    Header Nav {
+    Padding: 2rem 0;
+    }
+    Header Nav .Logo{
+    Margin-Right: 3rem;
+    }
+Body{
+    Font-Family: 'Poppins', Sans-Serif;
+    background-color: gray;
+    }
+    .Container{
+    Max-Width: 1152px;
+    Padding: 0 15px;
+    Margin: 0 Auto;
+    }
+    .Hero{
+    Padding-Top: 2rem;
+    Padding-Bottom: 3rem;
+    }
+    .Hero .Left Img{
+    Width: 400px;
+    }
+    .Hero .Right {
+    Color: Var(--White);
+    Margin-Top: -7rem;
+    }
+    .Hero .Right H6{
+    Font-Size: 1.6rem;
+    Color: Var(--Primary);
+    Margin-Bottom: 0.5rem;
+    }
+    .Hero .Right H1{
+    Font-Size: 4rem;
+    Font-Weight: 100;
+    Line-Height: 1.2;
+    Margin-Bottom: 2rem;
+    }
+    .Hero .Right H1 Span{
+    Color: Var(--Primary);
+    }
+    .Hero .Right P{
+    Line-Height: 1.9;
+    Margin-Bottom: 2rem;
+    font-size: 30px;
+    font-weight: 30px;
+    }
+.Flex{
+    Display: Flex;
+    }
+    .Items-Centre{
+    Align-Items: Center;
+    }
+    .Justify-Between{
+    Justify-Content: Space-Between;
+    }
+    .Justify-Center{
+    Justify-Content: Center;
+    }
+    .Justify-Right{
+    Justify-Content: Right;
+    }
+    .Btn{
+    Padding: 0.6rem 2rem;
+    Font-Size: 1rem;
+    Font-Weight: 600;
+    Border: 2px Solid Transparent;
+    Outline: None;
+    Cursor: Pointer;
+    Text-Transform: Uppercase;
+    Transition: All .2s Ease;
+    }
+    .Btn-Primary{
+    Background-Color: Var(--Primary);
+    Color: Var(--Secondary);
+    Margin-Top: -15rem;
+    }
+    .Btn-Primary:hover{
+    Background: Transparent;
+    Border-Color: Var(--Primary);
+    Color: Var(--Primary);
+    }
+    .Flex-1{
+    Flex: 1;
+    }
+    .Btn-Secondary{
+    Background: Transparent;
+    Color: Var(--Primary);
+    Border-Color: Var(--Primary);
+    }
+    .Btn-Secondary:hover{
+    Background: Var(--Primary);
+    Color: Var(--Secondary);
+    }
+Section{
+    Padding: 6rem;
+    }
+    Section.About H1{
+    Margin-Bottom: 1rem;
+    Font-Size: 1.6rem;
+    Font-Weight: 600;
+    }
+    Section.About H1 Span{
+    Color: Var(--Primary);
+    }
+    Section.About H3{
+    Font-Size: 1rem;
+    Margin-Bottom: 1rem;
+    Font-Weight: 600;
+    }
+    Section.About P{
+    Font-Family: 'Lato', Sans-Serif;
+    Color: Var(--Secondary);
+    Line-Height: 1.9rem;
+    Margin-Bottom: 2rem;
+    }
+    Section.About .Socials{
+    Display: Flex;
+    }
+    Section.About .Socials A{
+    Display: Flex;
+    Align-Items: Center;
+    Justify-Content: Center;
+    Width: 35px;
+    Margin-Right: 0.8rem;
+    Border-Radius: 50%;
+    }
+    Section.About .Socials A:hover{
+    Background: Var(--Primary);
+    }
+Section.Services{
+    Background: Rgb(17, 17, 17)
+    }
+    .Services-Head{
+    Color: Rgb(10, 9, 9);
+    Text-Align: Center;
+    Margin-Bottom: 1rem;
+    Line-Height: 0.5rem;
+    Color: Var(--Primary);
+    }
+    .Services-Head + P{
+    Color: Var(--White);
+    Font-Family: 'Lato', Sans-Serif;
+    Margin-Bottom: 1rem;
+    Text-Align: Center;
+    Margin-Bottom: 6rem;
+    Font-Weight: 400;
+    }
+    .Card Img{
+    Width: 50px;
+    Background:white;
+    }
+    Section.Services .Card-Grid{
+    Display: Grid;
+    Grid-Template-Columns: Repeat(3,1fr);
+    Column-Gap: 2rem;
+    }
+    Section.Services .Card-Grid .Card{
+    Background: Var(--White);
+    Padding: 3rem 2rem;
+    Position: Relative;
+    Text-Align: Center;
+    Transition: All .2s Ease;
+    }
+    Section.Services .Card-Grid .Card Img{
+    Position: Absolute;
+    Top: -1.5rem;
+    Left: 50%;
+    Transform: TranslateX(-50%);
+    Color: Var();
+    }
+    Section.Services .Card-Grid .Card H2{
+    Font-Weight: 600;
+    Font-Size: 1.2rem;
+    Margin-Bottom: 0.5rem;
+    }
+    Section.Services .Card-Grid .Card P{
+    Font-Family: 'Lato', Sans-Serif;
+    Color: Var(--Seconday);
+    Line-Height: 1.6;
+    }
+    Section.Services .Card-Grid .Card:hover{
+    Background: Var(--Primary);
+    }
+    Section.Services .Card-Grid .Card:hover H2{
+    Color: Var(--White);
+    }
+    Section.Services .Card-Grid .Card:hover P{
+    Color: Var(--White);
+    }
+    table {
+        border-width: 0;
+        width: 100%;
+        max-width: 100%;
+        font-family: "Nunito Sans", sans-serif;
+        border-collapse: collapse;
+      }
+      
+      th,
+      td {
+        padding: 1.5rem 3rem;
+        text-align: left;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      }
+      
+      th {
+        color: #FFFFFF;
+        font-family: "Nunito Sans", sans-serif;
+        font-weight: 700;
+      }
+      
+      td {
+        line-height: 1.5;
+      }
+      
+      th:first-child,
+      td:first-child {
+        padding-left: 0;
+      }
+      
+      th:last-child,
+      td:last-child {
+        padding-right: 0;
+      }
+      
+      .table-responsive {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+      }
+      .about .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:1rem 0;
+}
+
+.about .row .info{
+    flex:1 1 48rem;
+    padding:2rem 1rem;
+    padding-left: 6rem;
+}
+
+.about .row .info h3{
+    font-size: 2rem;
+    color:var(--yellow);
+    padding:1rem 0;
+    font-weight: normal;
+}
+
+.about .row .info h3 span{
+    color:rgb(237, 92, 8);
+    padding:0 .5rem;
+}
+      .about .row .counter{
+        flex:1 1 48rem;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .about .row .counter .box{
+        width:20rem;
+        background:rgb(34, 34, 34);
+        text-align: center;
+        padding: 2rem;
+        margin:2rem;
+    }
+    
+    .about .row .counter .box span{
+        font-size: 4rem;
+        color:var(--yellow);
+    }
+    
+    .about .row .counter .box h3{
+        font-size: 2rem;
+        color:#fff;
+    }
+    .education .box-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding:1rem 0;
+        padding-left: 3rem;
+    }
+    
+    .education .box-container .box{
+        width:27rem;
+        margin:4rem 1rem;
+        padding-left: 4rem;
+        border-left: .2rem solid #fff;
+        position: relative;
+    }
+    
+    .education .box-container .box span{
+        font-size: 1.3rem;
+        background:#222;
+        color:#fff;
+        border-radius: 5rem;
+        padding:.5rem 2.5rem;
+    }
+    
+    .education .box-container .box h3{
+        font-size: 2rem;
+        color:#fff;
+        padding-top: 1.5rem;
+    }
+    
+    .education .box-container .box p{
+        font-size: 1.4rem;
+        color:#eee;
+        padding: 1rem 0;
+    }
+    
+    .education .box-container .box i{
+        position: absolute;
+        top:-1.5rem; left:-2.5rem;
+        height:5rem;
+        width: 5rem;
+        border-radius: 50%;
+        line-height: 5rem;
+        text-align: center;
+        font-size: 2rem;
+        color:#fff;
+        background:var(--yellow);
+    }

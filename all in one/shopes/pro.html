@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="icon" href="https://harnishdesign.net/demo/react/callum/demo/favicon.ico">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Web site created using create-react-app">
+    <link rel="apple-touch-icon" href="https://harnishdesign.net/demo/react/callum/demo/logo192.png">
+    <link rel="manifest" href="https://harnishdesign.net/demo/react/callum/demo/manifest.json">
+    <title>Callum - Personal Portfolio React Template</title>
+    <link rel="stylesheet" href="./pro_files/animate.min.css">
+    <link rel="stylesheet" href="./pro_files/all.min.css">
+    <link rel="stylesheet" href="./pro_files/css">
+    <!-- <script defer="defer" src="./pro_files/main.3c6be675.js.download"></script> -->
+    <link href="./pro_files/main.741c6fbb.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+
+    <style>
+        .Typewriter__cursor {
+            -webkit-animation: Typewriter-cursor 1s infinite;
+            animation: Typewriter-cursor 1s infinite;
+            margin-left: 1px
+        }
+
+        @-webkit-keyframes Typewriter-cursor {
+            0% {
+                opacity: 0
+            }
+
+            50% {
+                opacity: 1
+            }
+
+            100% {
+                opacity: 0
+            }
+        }
+
+        @keyframes Typewriter-cursor {
+            0% {
+                opacity: 0
+            }
+
+            50% {
+                opacity: 1
+            }
+
+            100% {
+                opacity: 0
+            }
+        }
+    </style>
+</head>
+
+<body><noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+        <div style="position: relative;">
+            <div id="main-wrapper">
+                <header id="header" class="sticky-top">
+                    <nav class="primary-menu navbar navbar-expand-lg text-uppercase navbar-line-under-text fw-600">
+                        <div class="container position-relative">
+                            <div class="col-auto col-lg-2 d-inline-flex ps-lg-0"><a class="logo" title="Callum"
+                                    style="cursor: pointer;"><img src="./pro_files/logo.png" alt="Callum"></a></div>
+                            <div class="col col-lg-8 navbar-accordion px-0"><button
+                                    class="navbar-toggler ms-auto collapsed "
+                                    type="button"><span></span><span></span><span></span></button>
+                                <div id="header-nav" class="collapse navbar-collapse justify-content-center ">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item"><a class="nav-link " style="cursor: pointer;">Home</a></li>
+                                        <li class="nav-item"><a class="nav-link " style="cursor: pointer;">About</a>
+                                        </li>
+                                        <li class="nav-item"><a class="nav-link " style="cursor: pointer;">Services</a>
+                                        </li>
+                                        <li class="nav-item"><a class="nav-link " style="cursor: pointer;">Resume</a>
+                                        </li>
+                                        <li class="nav-item"><a class="nav-link " style="cursor: pointer;">Portfolio</a>
+                                        </li>
+                                        <li class="nav-item"><a class="nav-link " style="cursor: pointer;">FAQ</a></li>
+                                        <li class="nav-item"><a class="nav-link " style="cursor: pointer;">Client</a>
+                                        </li>
+                                        <li class="nav-item"><a class="nav-link  active"
+                                                style="cursor: pointer;">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-auto col-lg-2 d-flex justify-content-end ps-0">
+                                <ul class="social-icons">
+                                    <li class="social-icons-facebook"><a href="http://www.facebook.com/" target="_blank"
+                                            rel="noopener noreferrer"><i class="fa fa-facebook"></i></a></li>
+                                    <li class="social-icons-twitter"><a href="http://www.twitter.com/" target="_blank"
+                                            rel="noopener noreferrer"><i class="fa fa-twitter"></i></a></li>
+                                    <li class="social-icons-instagram"><a href="http://www.instagram.com/"
+                                            target="_blank" rel="noopener noreferrer"><i
+                                                class="fa fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </header>
+                <div id="content" role="main">
+                    <section id="home">
+                        <div class="hero-wrap">
+                            <div class="hero-mask opacity-8 bg-dark"></div>
+                            <div class="react-parallax " style="position: relative; overflow: hidden;"><img
+                                    class="react-parallax-bgimage" src="./pro_files/intro-bg.jpg" alt="Intro"
+                                    loading="eager"
+                                    style="position: absolute; left: 50%; transform: translate3d(-50%, 199.196px, 0px); transform-style: preserve-3d; backface-visibility: hidden; height: auto; width: 1519.2px; filter: none;">
+                                <div class="react-parallax-content" style="position: relative;">
+                                    <div class="hero-content d-flex fullscreen-with-header py-5">
+                                        <div class="container my-auto py-4">
+                                            <div class="row">
+                                                <div class="col-lg-12 text-center order-1 order-lg-0">
+                                                    <h1 class="text-8 text-white fw-400 mb-0 text-uppercase">Hi, I'm a
+                                                        Freelancer</h1>
+                                                    <h2 class="text-23 text-white fw-600 text-uppercase mb-0 ms-n1">
+                                                        <div class="Typewriter" data-testid="typewriter-wrapper"><span
+                                                                class="Typewriter__wrapper">Callum</span><span
+                                                                class="Typewriter__cursor">|</span></div>
+                                                    </h2>
+                                                    <p class="text-5 text-light">based in Los Angeles, USA.</p><a
+                                                        class="btn btn-primary fw-600 rounded-0 smooth-scroll mt-3"
+                                                        style="cursor: pointer;">View My Works</a>
+                                                </div>
+                                            </div>
+                                        </div><a class="scroll-down-arrow text-light smooth-scroll"
+                                            style="cursor: pointer;"><span class="animated"><i
+                                                    class="fa fa-arrow-down"></i></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="about" class="section">
+                        <div class="container">
+                            <p class="text-center mb-2 wow fadeInUp" style="visibility: visible;"><span
+                                    class="bg-primary text-dark px-2">About Me</span></p>
+                            <h2 class="text-10 fw-600 text-center mb-5 wow fadeInUp" style="visibility: visible;">Know
+                                Me More</h2>
+                            <div class="row">
+                                <div class="col-lg-8 text-center text-lg-start wow fadeInUp"
+                                    style="visibility: visible;">
+                                    <h2 class="text-8 fw-400 mb-3">Hi, I'm <span
+                                            class="fw-700 border-bottom border-3 border-primary">Callum Smith</span>
+                                    </h2>
+                                    <p class="text-5">I'm a designer &amp; developer with a passion for web design. I
+                                        enjoy developing simple, clean and slick websites that provide real value to the
+                                        end user. Thousands of clients have procured exceptional results while working
+                                        with me. Delivering work within time and budget which meets client’s
+                                        requirements is our moto.</p>
+                                </div>
+                                <div class="col-lg-4 mt-4 mt-lg-0 wow fadeInUp" data-wow-delay="0.2s"
+                                    style="visibility: visible; animation-delay: 0.2s;">
+                                    <div class="featured-box style-4">
+                                        <div class="featured-box-icon text-25 fw-500 bg-primary rounded-circle"><span
+                                                class="wow heartBeat" data-wow-delay="1.3s"
+                                                style="visibility: visible; animation-delay: 1.3s;">22</span></div>
+                                        <h3 class="text-7 wow rubberBand" data-wow-delay="2s"
+                                            style="visibility: visible; animation-delay: 2s;">Years of <span
+                                                class="fw-700">Experiance</span></h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row gy-3 mt-4">
+                                <div class="col-6 col-lg-3 wow fadeInUp" style="visibility: visible;">
+                                    <p class="text-muted fw-500 mb-0">Name:</p>
+                                    <p class="text-4 text-dark fw-600 mb-0">Callum Smith</p>
+                                </div>
+                                <div class="col-6 col-lg-3 wow fadeInUp" data-wow-delay="0.2s"
+                                    style="visibility: visible; animation-delay: 0.2s;">
+                                    <p class="text-muted fw-500 mb-0">Email:</p>
+                                    <p class="text-4 fw-600 mb-0"><a class="link-dark"
+                                            href="mailto:chat@callum.com">chat@callum.com</a></p>
+                                </div>
+                                <div class="col-6 col-lg-3 wow fadeInUp" data-wow-delay="0.3s"
+                                    style="visibility: visible; animation-delay: 0.3s;">
+                                    <p class="text-muted fw-500 mb-0">Date of birth:</p>
+                                    <p class="text-4 text-dark fw-600 mb-0">11 November, 1987</p>
+                                </div>
+                                <div class="col-6 col-lg-3 wow fadeInUp" data-wow-delay="0.4s"
+                                    style="visibility: visible; animation-delay: 0.4s;">
+                                    <p class="text-muted fw-500 mb-0">From:</p>
+                                    <p class="text-4 text-dark fw-600 mb-0">Los Angeles, USA.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="services" class="section bg-light">
+                        <div class="container">
+                            <p class="text-center mb-2 wow fadeInUp" style="visibility: visible;"><span
+                                    class="bg-primary text-dark px-2">What I Do?</span></p>
+                            <h2 class="text-10 fw-600 text-center mb-5 wow fadeInUp" style="visibility: visible;">How I
+                                can help your next project</h2>
+                            <div class="row gy-5 mt-5">
+                                <div class="col-sm-6 col-lg-4 wow fadeInUp" style="visibility: visible;">
+                                    <div class="featured-box text-center px-md-4">
+                                        <div class="featured-box-icon text-primary text-13"> <i
+                                                class="fas fa-palette"></i></div>
+                                        <h3 class="text-6 fw-600 mb-3">Graphic Design</h3>
+                                        <p class="text-muted mb-0">Lorem Ipsum is simply dummy text of the printing and
+                                            typesetting industry. Lorem Ipsum has been the industry’s standard dummy
+                                            text. </p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 wow fadeInUp" style="visibility: visible;">
+                                    <div class="featured-box text-center px-md-4">
+                                        <div class="featured-box-icon text-primary text-13"> <i
+                                                class="fas fa-desktop"></i></div>
+                                        <h3 class="text-6 fw-600 mb-3">Web Design</h3>
+                                        <p class="text-muted mb-0">Lorem Ipsum is simply dummy text of the printing and
+                                            typesetting industry. Lorem Ipsum has been the industry’s standard dummy
+                                            text. </p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 wow fadeInUp" style="visibility: visible;">
+                                    <div class="featured-box text-center px-md-4">
+                                        <div class="featured-box-icon text-primary text-13"> <i
+                                                class="fas fa-pencil-ruler"></i></div>
+                                        <h3 class="text-6 fw-600 mb-3">UI/UX Design</h3>
+                                        <p class="text-muted mb-0">Lorem Ipsum is simply dummy text of the printing and
+                                            typesetting industry. Lorem Ipsum has been the industry’s standard dummy
+                                            text. </p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 wow fadeInUp" style="visibility: visible;">
+                                    <div class="featured-box text-center px-md-4">
+                                        <div class="featured-box-icon text-primary text-13"> <i
+                                                class="fas fa-paint-brush"></i></div>
+                                        <h3 class="text-6 fw-600 mb-3">App Design &amp; Develop</h3>
+                                        <p class="text-muted mb-0">Lorem Ipsum is simply dummy text of the printing and
+                                            typesetting industry. Lorem Ipsum has been the industry’s standard dummy
+                                            text. </p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 wow fadeInUp" style="visibility: visible;">
+                                    <div class="featured-box text-center px-md-4">
+                                        <div class="featured-box-icon text-primary text-13"> <i
+                                                class="fas fa-chart-area"></i></div>
+                                        <h3 class="text-6 fw-600 mb-3">Business Analysis</h3>
+                                        <p class="text-muted mb-0">Lorem Ipsum is simply dummy text of the printing and
+                                            typesetting industry. Lorem Ipsum has been the industry’s standard dummy
+                                            text. </p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 wow fadeInUp" style="visibility: visible;">
+                                    <div class="featured-box text-center px-md-4">
+                                        <div class="featured-box-icon text-primary text-13"> <i
+                                                class="fas fa-bullhorn"></i></div>
+                                        <h3 class="text-6 fw-600 mb-3">SEO Marketing</h3>
+                                        <p class="text-muted mb-0">Lorem Ipsum is simply dummy text of the printing and
+                                            typesetting industry. Lorem Ipsum has been the industry’s standard dummy
+                                            text. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="resume" class="section">
+                        <div class="container">
+                            <p class="text-center mb-2 wow fadeInUp" style="visibility: visible;"><span
+                                    class="bg-primary text-dark px-2">Resume</span></p>
+                            <h2 class="text-10 fw-600 text-center mb-5 wow fadeInUp" style="visibility: visible;">A
+                                summary of My Resume</h2>
+                            <div class="row g-5 mt-5">
+                                <div class="col-lg-6 wow fadeInUp" style="visibility: visible;">
+                                    <h2 class="text-7 fw-600 mb-4 pb-2">My Education</h2>
+                                    <div class="border-start border-2 border-primary ps-3">
+                                        <div>
+                                            <h3 class="text-5">Master in Computer Engineering</h3>
+                                            <p class="mb-2">Harvard University / 2015 - 2017</p>
+                                            <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and
+                                                typesetting industry. Lorem Ipsum has been the dummy text.</p>
+                                            <hr class="my-4">
+                                        </div>
+                                        <div>
+                                            <h3 class="text-5">Bachelor in Computer Engineering</h3>
+                                            <p class="mb-2">University of California / 2014 - 2015</p>
+                                            <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and
+                                                typesetting industry. Lorem Ipsum has been the dummy text.</p>
+                                            <hr class="my-4">
+                                        </div>
+                                        <div>
+                                            <h3 class="text-5">International Science</h3>
+                                            <p class="mb-2">Harvard University / 2013 - 2014</p>
+                                            <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and
+                                                typesetting industry. Lorem Ipsum has been the dummy text.</p>
+                                            <hr class="my-4">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s"
+                                    style="visibility: visible; animation-delay: 0.2s;">
+                                    <h2 class="text-7 fw-600 mb-4 pb-2">My Experience</h2>
+                                    <div class="border-start border-2 border-primary ps-3">
+                                        <div>
+                                            <h3 class="text-5">Sr. Font End Developer</h3>
+                                            <p class="mb-2">Apple Inc / 2020 - current</p>
+                                            <p class="text-muted">Lisque persius interesset his et, in quot quidam
+                                                persequeris vim, ad mea essent possim iriure.</p>
+                                            <hr class="my-4">
+                                        </div>
+                                        <div>
+                                            <h3 class="text-5">Jr. Font End Developer</h3>
+                                            <p class="mb-2">Dribbble Inc / 2018 - 2020</p>
+                                            <p class="text-muted">Lisque persius interesset his et, in quot quidam
+                                                persequeris vim, ad mea essent possim iriure.</p>
+                                            <hr class="my-4">
+                                        </div>
+                                        <div>
+                                            <h3 class="text-5">HTML Developer</h3>
+                                            <p class="mb-2">Adobe Inc / 2017 - 2018</p>
+                                            <p class="text-muted">Lisque persius interesset his et, in quot quidam
+                                                persequeris vim, ad mea essent possim iriure.</p>
+                                            <hr class="my-4">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <h2 class="text-7 fw-600 mb-4 pb-2 mt-5 wow fadeInUp" style="visibility: visible;">My Skills
+                            </h2>
+                            <div class="row gx-5">
+                                <div class="col-md-6 wow fadeInUp" style="visibility: visible;">
+                                    <p class="fw-500 text-start mb-2">Web Design <span class="float-end">65%</span></p>
+                                    <div class="progress progress-sm mb-4">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="65"
+                                            aria-valuemin="0" aria-valuemax="100" style="width: 65%;"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 wow fadeInUp" style="visibility: visible;">
+                                    <p class="fw-500 text-start mb-2">HTML/CSS <span class="float-end">95%</span></p>
+                                    <div class="progress progress-sm mb-4">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="95"
+                                            aria-valuemin="0" aria-valuemax="100" style="width: 95%;"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 wow fadeInUp" style="visibility: visible;">
+                                    <p class="fw-500 text-start mb-2">JavaScript <span class="float-end">80%</span></p>
+                                    <div class="progress progress-sm mb-4">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="80"
+                                            aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 wow fadeInUp" style="visibility: visible;">
+                                    <p class="fw-500 text-start mb-2">React JS <span class="float-end">70%</span></p>
+                                    <div class="progress progress-sm mb-4">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                                            aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 wow fadeInUp" style="visibility: visible;">
+                                    <p class="fw-500 text-start mb-2">Angular Js <span class="float-end">60%</span></p>
+                                    <div class="progress progress-sm mb-4">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                            aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 wow fadeInUp" style="visibility: visible;">
+                                    <p class="fw-500 text-start mb-2">Bootstrap <span class="float-end">99%</span></p>
+                                    <div class="progress progress-sm mb-4">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="99"
+                                            aria-valuemin="0" aria-valuemax="100" style="width: 99%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="text-center mt-5 wow fadeInUp" style="visibility: visible;"><a
+                                    class="btn btn-outline-dark shadow-none rounded-0"
+                                    href="https://harnishdesign.net/demo/react/callum/demo/static/media/resume.c84e759e31a37c0be66e.pdf"
+                                    download="">Download CV</a></p>
+                        </div>
+                    </section>
+                    <section id="portfolio" class="section bg-light">
+                        <div class="container">
+                            <p class="text-center mb-2 wow fadeInUp" style="visibility: visible;"><span
+                                    class="bg-primary text-dark px-2">Portfolio</span></p>
+                            <h2 class="text-10 fw-600 text-center mb-5 wow fadeInUp" style="visibility: visible;">Some
+                                of my most recent projects</h2>
+                            <ul class="portfolio-menu nav nav-tabs fw-600 justify-content-start justify-content-md-center border-bottom-0 mb-5 wow fadeInUp"
+                                style="visibility: visible;">
+                                <li class="nav-item"><button class="nav-link active">All</button></li>
+                                <li class="nav-item"><button class="nav-link ">Details</button></li>
+                                <li class="nav-item"><button class="nav-link ">Mockups</button></li>
+                                <li class="nav-item"><button class="nav-link ">Youtube Videos</button></li>
+                                <li class="nav-item"><button class="nav-link ">Vimeo Videos</button></li>
+                            </ul>
+                            <div class="portfolio wow fadeInUp" style="visibility: visible;">
+                                <div class="row portfolio-filter filter-container g-4"
+                                    style="position: relative; height: 939.4px;">
+                                    <div class="col-sm-6 col-lg-4 filter-item DETAILED"
+                                        style="position: absolute; left: 0px; top: 0px;">
+                                        <div class="portfolio-box">
+                                            <div class="portfolio-img"><img class="img-fluid d-block portfolio-image"
+                                                    src="./pro_files/project-1.jpg" alt="">
+                                                <div class="portfolio-overlay"><button
+                                                        class="popup-ajax stretched-link border-0 p-0 "> </button>
+                                                    <div class="portfolio-overlay-details">
+                                                        <p class="text-primary text-8"><i class="fas fa-file-alt"></i>
+                                                        </p>
+                                                        <h5 class="text-white text-5">Detailed Project 1</h5><span
+                                                            class="text-light">Category</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-4 filter-item MOCKUPS"
+                                        style="position: absolute; left: 439.987px; top: 0px;">
+                                        <div class="portfolio-box">
+                                            <div class="portfolio-img"><img class="img-fluid d-block portfolio-image"
+                                                    src="./pro_files/project-2.jpg" alt="">
+                                                <div class="portfolio-overlay"><button
+                                                        class="popup-ajax stretched-link border-0 p-0 "> </button>
+                                                    <div class="portfolio-overlay-details">
+                                                        <p class="text-primary text-8"><i class="fas fa-image"></i></p>
+                                                        <h5 class="text-white text-5">Mockups Design 1</h5><span
+                                                            class="text-light">Category</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-4 filter-item YOUTUBE"
+                                        style="position: absolute; left: 879.974px; top: 0px;">
+                                        <div class="portfolio-box">
+                                            <div class="portfolio-img"><img class="img-fluid d-block portfolio-image"
+                                                    src="./pro_files/project-3.jpg" alt="">
+                                                <div class="portfolio-overlay"><button
+                                                        class="popup-ajax stretched-link border-0 p-0 "> </button>
+                                                    <div class="portfolio-overlay-details">
+                                                        <p class="text-primary text-8"><i class="fas fa-video"></i></p>
+                                                        <h5 class="text-white text-5">YouTube Video</h5><span
+                                                            class="text-light">Category</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-4 filter-item VIMEO"
+                                        style="position: absolute; left: 0px; top: 469.7px;">
+                                        <div class="portfolio-box">
+                                            <div class="portfolio-img"><img class="img-fluid d-block portfolio-image"
+                                                    src="./pro_files/project-4.jpg" alt="">
+                                                <div class="portfolio-overlay"><button
+                                                        class="popup-ajax stretched-link border-0 p-0 "> </button>
+                                                    <div class="portfolio-overlay-details">
+                                                        <p class="text-primary text-8"><i class="fas fa-video"></i></p>
+                                                        <h5 class="text-white text-5">Vimeo Video</h5><span
+                                                            class="text-light">Category</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-4 filter-item DETAILED"
+                                        style="position: absolute; left: 439.987px; top: 469.7px;">
+                                        <div class="portfolio-box">
+                                            <div class="portfolio-img"><img class="img-fluid d-block portfolio-image"
+                                                    src="./pro_files/project-5.jpg" alt="">
+                                                <div class="portfolio-overlay"><button
+                                                        class="popup-ajax stretched-link border-0 p-0 "> </button>
+                                                    <div class="portfolio-overlay-details">
+                                                        <p class="text-primary text-8"><i class="fas fa-file-alt"></i>
+                                                        </p>
+                                                        <h5 class="text-white text-5">Detailed Project 2</h5><span
+                                                            class="text-light">Category</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-4 filter-item MOCKUPS"
+                                        style="position: absolute; left: 879.974px; top: 469.7px;">
+                                        <div class="portfolio-box">
+                                            <div class="portfolio-img"><img class="img-fluid d-block portfolio-image"
+                                                    src="./pro_files/project-6.jpg" alt="">
+                                                <div class="portfolio-overlay"><button
+                                                        class="popup-ajax stretched-link border-0 p-0 "> </button>
+                                                    <div class="portfolio-overlay-details">
+                                                        <p class="text-primary text-8"><i class="fas fa-image"></i></p>
+                                                        <h5 class="text-white text-5">Mockups Design 2</h5><span
+                                                            class="text-light">Category</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="hero-wrap">
+                            <div class="hero-mask opacity-8 bg-dark"></div>
+                            <div class="react-parallax " style="position: relative; overflow: hidden;"><img
+                                    class="react-parallax-bgimage" src="./pro_files/intro-bg-2.jpg" alt="Intro"
+                                    loading="eager"
+                                    style="position: absolute; left: 50%; transform: translate3d(-50%, 146.649px, 0px); transform-style: preserve-3d; backface-visibility: hidden; height: auto; width: 1519.2px; filter: none;">
+                                <div class="react-parallax-content" style="position: relative;">
+                                    <div class="hero-content section">
+                                        <div class="container text-center py-5 wow fadeInUp"
+                                            style="visibility: visible;">
+                                            <h2 class="text-10 fw-600 text-white mb-5">Interested in working with me?
+                                            </h2><a class="btn btn-primary rounded-0 smooth-scroll wow rubberBand"
+                                                data-wow-delay="1s"
+                                                style="visibility: visible; animation-delay: 1s;">Hire Me!</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="faq" class="section bg-light">
+                        <div class="container">
+                            <div class="row gy-5">
+                                <div class="col-lg-6 order-1 order-lg-0 wow fadeInUp" style="visibility: visible;">
+                                    <p class="text-center text-lg-start mb-2"><span
+                                            class="bg-primary text-dark px-2">FAQ</span></p>
+                                    <h2 class="text-10 fw-600 text-center text-lg-start mb-5">Have any questions?</h2>
+                                    <div class="accordion accordion-flush">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header"><button type="button" aria-expanded="false"
+                                                    class="accordion-button collapsed">What is Callum?</button></h2>
+                                            <div class="accordion-collapse collapse">
+                                                <div class="accordion-body">Lisque persius interesset his et, in quot
+                                                    quidam persequeris vim, ad mea essent possim iriure. Mutat tacimates
+                                                    id sit. Ridens mediocritatem ius an, eu nec magna imperdiet.</div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header"><button type="button" aria-expanded="false"
+                                                    class="accordion-button collapsed">How Can I Help You?</button></h2>
+                                            <div class="accordion-collapse collapse">
+                                                <div class="accordion-body">Iisque Anim pariatur cliche reprehenderit,
+                                                    enim eiusmod high life accusamus terry richardson ad squid. Food
+                                                    truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                                                    sunt aliqua put a bird on it squid single-origin coffee nulla
+                                                    assumenda shoreditch et. <br> Nihil anim keffiyeh helvetica, craft
+                                                    beer labore wes anderson cred nesciunt sapiente ea proident. Ad
+                                                    vegan excepteur butcher vice lomo.</div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header"><button type="button" aria-expanded="false"
+                                                    class="accordion-button collapsed">Simple process for
+                                                    workflow?</button></h2>
+                                            <div class="accordion-collapse collapse">
+                                                <div class="accordion-body">Iisque persius interesset his et, in quot
+                                                    quidam persequeris vim, ad mea essent possim iriure. Mutat tacimates
+                                                    id sit. Ridens mediocritatem ius an, eu nec magna imperdiet.</div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header"><button type="button" aria-expanded="false"
+                                                    class="accordion-button collapsed">Is Callum a Multi-purpose
+                                                    template?</button></h2>
+                                            <div class="accordion-collapse collapse">
+                                                <div class="accordion-body">Lorem Ipsum is simply dummy text of the
+                                                    printing and typesetting industry. Food truck quinoa nesciunt
+                                                    laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+                                                    on it squid single-origin coffee nulla assumenda shoreditch et.
+                                                    Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred
+                                                    nesciunt sapiente ea proident.</div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header"><button type="button" aria-expanded="false"
+                                                    class="accordion-button collapsed">Why responsive one page
+                                                    template?</button></h2>
+                                            <div class="accordion-collapse collapse">
+                                                <div class="accordion-body">Anim pariatur cliche reprehenderit, enim
+                                                    eiusmod high life accusamus terry richardson ad squid. Food truck
+                                                    quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
+                                                    aliqua put a bird on it squid single-origin coffee nulla assumenda
+                                                    shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes
+                                                    anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
+                                                    butcher vice lomo.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 d-flex align-items-center justify-content-center order-0 order-lg-1 wow fadeIn"
+                                    data-wow-delay="1s" style="visibility: visible; animation-delay: 1s;"> <img
+                                        class="img-fluid" src="./pro_files/faq.png" title="FAQ" alt="faq"> </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="testimonial" class="section bg-secondary">
+                        <div class="container">
+                            <p class="text-center mb-2 wow fadeIn" style="visibility: visible;"><span
+                                    class="bg-primary text-dark px-2">Client Speak</span></p>
+                            <h2 class="text-10 fw-600 text-white text-center mb-5 wow fadeIn"
+                                style="visibility: visible;">What Some of my Clients Say</h2>
+                            <div class="row">
+                                <div class="col-lg-9 mx-auto wow fadeInUp" style="visibility: visible;">
+                                    <div class="slick-slider slick-initialized" dir="ltr"><button data-role="none"
+                                            class="slick-prev slick-arrow" aria-hidden="true" aria-disabled="false"
+                                            type="button" style="display: block;"><i
+                                                class="fa fa-chevron-left"></i></button>
+                                        <div class="slick-list">
+                                            <div class="slick-track"
+                                                style="width: 8694px; opacity: 1; transform: translate3d(-1932px, 0px, 0px);">
+                                                <div data-index="-1" tabindex="-1" class="slick-slide slick-cloned"
+                                                    aria-hidden="true" style="width: 966px;">
+                                                    <div>
+                                                        <div class="item text-center px-5" tabindex="-1"
+                                                            style="width: 100%; display: inline-block;"> <span
+                                                                class="text-9 text-primary"><i
+                                                                    class="fa fa-quote-start"></i></span>
+                                                            <p class="text-5 text-white">“I have used them twice now.
+                                                                Good rates, very efficient service and priced simply
+                                                                dummy text of the printing and typesetting industry
+                                                                quidam interesset his et. simply dummy text of the
+                                                                printing and typesetting industry. Excellent.”</p><img
+                                                                class="img-fluid d-inline-block w-auto rounded-circle shadow"
+                                                                src="./pro_files/client-sm-4.jpg" alt="Chris Tom">
+                                                            <strong class="d-block text-3 fw-600 text-white">Chris
+                                                                Tom</strong> <span class="text-light">User from
+                                                                UK</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div data-index="0" class="slick-slide" tabindex="-1" aria-hidden="true"
+                                                    style="outline: none; width: 966px;">
+                                                    <div>
+                                                        <div class="item text-center px-5" tabindex="-1"
+                                                            style="width: 100%; display: inline-block;"> <span
+                                                                class="text-9 text-primary"><i
+                                                                    class="fa fa-quote-start"></i></span>
+                                                            <p class="text-5 text-white">“Easy to use, reasonably priced
+                                                                simply dummy text of the printing and typesetting
+                                                                industry. Quidam lisque persius interesset his et, in
+                                                                quot quidam possim iriure. simply dummy text of the
+                                                                printing and typesetting industry.”</p><img
+                                                                class="img-fluid d-inline-block w-auto rounded-circle shadow"
+                                                                src="./pro_files/client-sm-1.jpg" alt="Jay Shah">
+                                                            <strong class="d-block text-3 fw-600 text-white">Jay
+                                                                Shah</strong> <span class="text-light">Founder at
+                                                                Icomatic Pvt Ltd</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div data-index="1" class="slick-slide slick-active slick-current"
+                                                    tabindex="-1" aria-hidden="false"
+                                                    style="outline: none; width: 966px;">
+                                                    <div>
+                                                        <div class="item text-center px-5" tabindex="-1"
+                                                            style="width: 100%; display: inline-block;"> <span
+                                                                class="text-9 text-primary"><i
+                                                                    class="fa fa-quote-start"></i></span>
+                                                            <p class="text-5 text-white"> “I am happy Working with
+                                                                printing and typesetting industry. Quidam lisque persius
+                                                                interesset his et, in quot quidam persequeris essent
+                                                                possim iriure. simply dummy text of the printing and
+                                                                typesetting industry.”</p><img
+                                                                class="img-fluid d-inline-block w-auto rounded-circle shadow"
+                                                                src="./pro_files/client-sm-2.jpg" alt="Patrick Cary">
+                                                            <strong class="d-block text-3 fw-600 text-white">Patrick
+                                                                Cary</strong> <span class="text-light">Freelancer from
+                                                                USA</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div data-index="2" class="slick-slide" tabindex="-1" aria-hidden="true"
+                                                    style="outline: none; width: 966px;">
+                                                    <div>
+                                                        <div class="item text-center px-5" tabindex="-1"
+                                                            style="width: 100%; display: inline-block;"> <span
+                                                                class="text-9 text-primary"><i
+                                                                    class="fa fa-quote-start"></i></span>
+                                                            <p class="text-5 text-white">“Only trying it out since a few
+                                                                days. But up to now excellent. Seems to work flawlessly.
+                                                                priced simply dummy text of the printing and typesetting
+                                                                industry.”</p><img
+                                                                class="img-fluid d-inline-block w-auto rounded-circle shadow"
+                                                                src="./pro_files/client-sm-3.jpg" alt="Dennis Jacques">
+                                                            <strong class="d-block text-3 fw-600 text-white">Dennis
+                                                                Jacques</strong> <span class="text-light">Noon
+                                                                Inc</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div data-index="3" class="slick-slide" tabindex="-1" aria-hidden="true"
+                                                    style="outline: none; width: 966px;">
+                                                    <div>
+                                                        <div class="item text-center px-5" tabindex="-1"
+                                                            style="width: 100%; display: inline-block;"> <span
+                                                                class="text-9 text-primary"><i
+                                                                    class="fa fa-quote-start"></i></span>
+                                                            <p class="text-5 text-white">“I have used them twice now.
+                                                                Good rates, very efficient service and priced simply
+                                                                dummy text of the printing and typesetting industry
+                                                                quidam interesset his et. simply dummy text of the
+                                                                printing and typesetting industry. Excellent.”</p><img
+                                                                class="img-fluid d-inline-block w-auto rounded-circle shadow"
+                                                                src="./pro_files/client-sm-4.jpg" alt="Chris Tom">
+                                                            <strong class="d-block text-3 fw-600 text-white">Chris
+                                                                Tom</strong> <span class="text-light">User from
+                                                                UK</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div data-index="4" tabindex="-1" class="slick-slide slick-cloned"
+                                                    aria-hidden="true" style="width: 966px;">
+                                                    <div>
+                                                        <div class="item text-center px-5" tabindex="-1"
+                                                            style="width: 100%; display: inline-block;"> <span
+                                                                class="text-9 text-primary"><i
+                                                                    class="fa fa-quote-start"></i></span>
+                                                            <p class="text-5 text-white">“Easy to use, reasonably priced
+                                                                simply dummy text of the printing and typesetting
+                                                                industry. Quidam lisque persius interesset his et, in
+                                                                quot quidam possim iriure. simply dummy text of the
+                                                                printing and typesetting industry.”</p><img
+                                                                class="img-fluid d-inline-block w-auto rounded-circle shadow"
+                                                                src="./pro_files/client-sm-1.jpg" alt="Jay Shah">
+                                                            <strong class="d-block text-3 fw-600 text-white">Jay
+                                                                Shah</strong> <span class="text-light">Founder at
+                                                                Icomatic Pvt Ltd</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div data-index="5" tabindex="-1" class="slick-slide slick-cloned"
+                                                    aria-hidden="true" style="width: 966px;">
+                                                    <div>
+                                                        <div class="item text-center px-5" tabindex="-1"
+                                                            style="width: 100%; display: inline-block;"> <span
+                                                                class="text-9 text-primary"><i
+                                                                    class="fa fa-quote-start"></i></span>
+                                                            <p class="text-5 text-white"> “I am happy Working with
+                                                                printing and typesetting industry. Quidam lisque persius
+                                                                interesset his et, in quot quidam persequeris essent
+                                                                possim iriure. simply dummy text of the printing and
+                                                                typesetting industry.”</p><img
+                                                                class="img-fluid d-inline-block w-auto rounded-circle shadow"
+                                                                src="./pro_files/client-sm-2.jpg" alt="Patrick Cary">
+                                                            <strong class="d-block text-3 fw-600 text-white">Patrick
+                                                                Cary</strong> <span class="text-light">Freelancer from
+                                                                USA</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div data-index="6" tabindex="-1" class="slick-slide slick-cloned"
+                                                    aria-hidden="true" style="width: 966px;">
+                                                    <div>
+                                                        <div class="item text-center px-5" tabindex="-1"
+                                                            style="width: 100%; display: inline-block;"> <span
+                                                                class="text-9 text-primary"><i
+                                                                    class="fa fa-quote-start"></i></span>
+                                                            <p class="text-5 text-white">“Only trying it out since a few
+                                                                days. But up to now excellent. Seems to work flawlessly.
+                                                                priced simply dummy text of the printing and typesetting
+                                                                industry.”</p><img
+                                                                class="img-fluid d-inline-block w-auto rounded-circle shadow"
+                                                                src="./pro_files/client-sm-3.jpg" alt="Dennis Jacques">
+                                                            <strong class="d-block text-3 fw-600 text-white">Dennis
+                                                                Jacques</strong> <span class="text-light">Noon
+                                                                Inc</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div data-index="7" tabindex="-1" class="slick-slide slick-cloned"
+                                                    aria-hidden="true" style="width: 966px;">
+                                                    <div>
+                                                        <div class="item text-center px-5" tabindex="-1"
+                                                            style="width: 100%; display: inline-block;"> <span
+                                                                class="text-9 text-primary"><i
+                                                                    class="fa fa-quote-start"></i></span>
+                                                            <p class="text-5 text-white">“I have used them twice now.
+                                                                Good rates, very efficient service and priced simply
+                                                                dummy text of the printing and typesetting industry
+                                                                quidam interesset his et. simply dummy text of the
+                                                                printing and typesetting industry. Excellent.”</p><img
+                                                                class="img-fluid d-inline-block w-auto rounded-circle shadow"
+                                                                src="./pro_files/client-sm-4.jpg" alt="Chris Tom">
+                                                            <strong class="d-block text-3 fw-600 text-white">Chris
+                                                                Tom</strong> <span class="text-light">User from
+                                                                UK</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div><button data-role="none" class="slick-next slick-arrow" aria-hidden="true"
+                                            aria-disabled="false" type="button" style="display: block;"><i
+                                                class="fa fa-chevron-right"></i></button>
+                                        <ul class="slick-dots" style="display: block;">
+                                            <li class=""><button>1</button></li>
+                                            <li class="slick-active"><button>2</button></li>
+                                            <li class=""><button>3</button></li>
+                                            <li class=""><button>4</button></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="contact" class="section bg-primary">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-5 text-center text-lg-start wow fadeInUp"
+                                    style="visibility: visible;">
+                                    <h2 class="text-10 fw-600 mb-5">Let's get in touch</h2>
+                                    <p class="text-5 mb-5">I enjoy discussing new projects and design challenges. Please
+                                        share as much info, as possible so we can get the most out of our first
+                                        catch-up.</p>
+                                    <h3 class="text-5 fw-600">Living In:</h3>
+                                    <address class="text-4">30 Shacham street, Los Angeles, USA.</address>
+                                    <h3 class="text-5 fw-600">Call:</h3>
+                                    <p class="text-4">(+060) 444 434 444</p>
+                                    <ul
+                                        class="social-icons social-icons-lg justify-content-center justify-content-lg-start mt-5">
+                                        <li class="social-icons-twitter"><a href="https://twitter.com/harnishdesign/"
+                                                target="_blank" rel="noopener noreferrer"><i
+                                                    class="fa fa-twitter"></i></a></li>
+                                        <li class="social-icons-facebook"><a
+                                                href="http://www.facebook.com/harnishdesign/" target="_blank"
+                                                rel="noopener noreferrer"><i class="fa fa-facebook"></i></a></li>
+                                        <li class="social-icons-instagram"><a href="http://www.instagram.com/"
+                                                target="_blank" rel="noopener noreferrer"><i
+                                                    class="fa fa-instagram"></i></a></li>
+                                        <li class="social-icons-github"><a href="http://www.github.com/" target="_blank"
+                                                rel="noopener noreferrer"><i class="fa fa-github"></i></a></li>
+                                        <li class="social-icons-dribbble"><a
+                                                href="http://www.dribbble.com/harnishdesign/" target="_blank"
+                                                rel="noopener noreferrer"><i class="fa fa-dribbble"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-6 ms-auto mt-5 mt-lg-0 wow fadeInUp" data-wow-delay="0.3s"
+                                    style="visibility: visible; animation-delay: 0.3s;">
+                                    <h2 class="text-10 fw-600 text-center text-lg-start mb-5">Estimate your Project?
+                                    </h2>
+                                    <form id="contact-form" class="form-border" method="post">
+                                        <div class="row g-4">
+                                            <div class="col-12"><label class="form-label" for="name">What is Your
+                                                    Name:</label><input id="name" name="user_name" type="text"
+                                                    class="form-control py-1" required=""></div>
+                                            <div class="col-12"><label class="form-label" for="email">Your Email
+                                                    Address:</label><input id="email" name="user_email" type="email"
+                                                    class="form-control py-1" required=""></div>
+                                            <div class="col-12"><label class="form-label" for="form-message">How can I
+                                                    Help you?:</label><textarea id="form-message" name="message"
+                                                    class="form-control py-1" rows="4" required=""></textarea></div>
+                                            <div class="col-12 text-center text-lg-start"><button id="submit-btn"
+                                                    class="btn btn-dark rounded-0" type="submit">Send <span
+                                                        class="ms-3"><i class="fa fa-arrow-right"></i></span></button>
+                                            </div>
+                                            <div class="Toastify"></div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <footer id="footer" class="section bg-dark text-white">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 text-center text-lg-start wow fadeInUp" style="visibility: visible;">
+                                <p class="mb-2 mb-lg-0">Copyright © 2023 <a class="fw-600"
+                                        href="https://harnishdesign.net/">Callum</a>. All Rights Reserved.</p>
+                            </div>
+                            <div class="col-lg-6 wow fadeInUp" style="visibility: visible;">
+                                <p class="mb-0 text-center text-lg-end">Designed by <a class="fw-600"
+                                        href="https://www.harnishdesign.net/">Harnish Design</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div><span id="back-to-top" class="rounded-circle" style="display: inline;"><i
+                    class="fa fa-arrow-up"></i></span>
+            <div id="styles-switcher" class="right">
+                <h2 class="text-3 fw-600">Color Switcher</h2>
+                <hr>
+                <ul>
+                    <li class="cyan" data-bs-toggle="tooltip" title="Cyan" data-path="css/color-cyan.css"></li>
+                    <li class="spring-green" data-bs-toggle="tooltip" title="Spring Green"
+                        data-path="css/color-spring-green.css"></li>
+                    <li class="green-yellow" data-bs-toggle="tooltip" title="Green Yellow"
+                        data-path="css/color-green-yellow.css"></li>
+                    <li class="lime-punch" data-bs-toggle="tooltip" title="Lime Punch"
+                        data-path="css/color-lime-punch.css"></li>
+                    <li class="violet" data-bs-toggle="tooltip" title="Violet" data-path="css/color-violet.css"></li>
+                    <li class="orange" data-bs-toggle="tooltip" title="Orange" data-path="css/color-orange.css"></li>
+                    <li class="pale-golden-rod" data-bs-toggle="tooltip" title="Pale Golden Rod"
+                        data-path="css/color-pale-golden-rod.css"></li>
+                    <li class="yellow" id="reset-color" data-bs-toggle="tooltip" title="Reset Default Yellow"></li>
+                </ul><button class="btn switcher-toggle"><i class="fa fa-cog"></i></button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
